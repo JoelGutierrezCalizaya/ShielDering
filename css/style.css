@@ -50,6 +50,7 @@
   width: 115%;
   margin-left: -10%;
   margin-top: 5%;
+  display: flex;
 }
 
 .img4 {
@@ -64,8 +65,43 @@
   margin-top: 40%;
 }
 
+.titulo {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(186, 85, 211);
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  font-family: "Chomsky";
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.titulo:hover {
+  transform: scale(1.1);
+}
+
+.grup1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.grup2 {
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  display: flex;
+}
+
 .te-not {
+  font-size: 20px;
   margin-top: 10%;
+  font-family: "Noto Serif Khojki", serif;
+}
+
+.te-not2 {
+  font-size: 20px;
+  margin: 1px;
+  font-family: "Noto Serif Khojki", serif;
 }
 
 .noti-im-foto {
@@ -74,9 +110,60 @@
   margin-top: 10%;
 }
 
-.fotos-not .col-lg-6 {
-  margin: 0 !important;
-  padding: 25px;
+.noti-im-foto2 {
+  width: 80%;
+  padding-left: 15%;
+  margin-top: 10%;
+}
+
+.noticias1y2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.noticias1y2 .titulo-not {
+  text-align: center;
+}
+
+.noticia1 {
+  width: 100%;
+  margin: 20px;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noticia2 {
+  width: 100%;
+  margin: 20px;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noticia3 {
+  width: 100%;
+  margin: 20px;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noticia4 {
+  width: 100%;
+  margin: 20px;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 video {
@@ -84,13 +171,36 @@ video {
   height: 75%;
 }
 
-.foto-not {
-  width: 75%;
-  height: 75%;
+.noticias3y4 {
+  display: flex;
+}
+
+.foto-not3 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-not4 {
+  width: 500px;
+  height: 300px;
+  margin-right: 80px;
 }
 
 .titulo-not {
-  margin-left: -25%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(186, 85, 211);
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  font-family: "Chomsky";
+}
+
+.text-not {
+  font-size: 20px;
+  font-family: "Noto Serif Khojkl", serif;
+  justify-content: center;
 }
 
 .img1-jg {
@@ -115,61 +225,102 @@ video {
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
+  font-family: "Noto Serif Khojki", serif;
 }
 
 .descripcion-jg {
   font-size: 20px;
   text-align: justify;
   margin-top: 20%;
+  font-family: "Noto Serif Khojki", serif;
+}
+
+.video-juegos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enlaces-juegos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .steam-jg {
-  width: 10%;
-  margin-left: 35%;
-  margin-bottom: 20%;
-  margin-top: -20%;
+  display: flex;
+  justify-content: flex-start;
+  width: 12em;
 }
 
 .plastore-jg {
-  width: 50%;
-  margin-left: -1%;
-  margin-bottom: 20%;
-  margin-top: -20%;
+  display: flex;
+  justify-content: flex-end;
+  width: 40em;
+  margin-left: 50em;
 }
 
-.equipo-bicho {
-  margin-left: 10%;
-  width: 50%;
+.contenedor-equipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.equipo-bicho2 {
-  margin-top: 10%;
-  width: 35%;
-  margin-left: 25%;
+.equipo1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
-.equip-rol {
-  margin-top: 5%;
-  margin-left: 30%;
+.equipo-foto1 {
+  height: 300px;
 }
 
-.equip-rol2 {
-  margin-top: 5%;
-  margin-left: 40%;
+.equipo2 {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
 }
 
-.titulo {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  text-align: center;
+.equipo-foto2 {
+  height: 300px;
+}
+
+.nombre-equipo {
+  color: rgb(186, 85, 211);
+  font-size: 30px;
+}
+
+.lista {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.soporte {
+  margin-top: 3%;
 }
 
 .text-contacto {
   margin-bottom: 20%;
+  font-size: 20px;
+  font-family: "Noto Serif Khojki", serif;
 }
 
 .enviar {
-  margin-top: 2%;
+  border: 0;
+  margin-top: 3%;
+  color: white;
+  overflow: hidden;
+  transition: 0.2;
+  background: rgb(15, 150, 22);
+  text-decoration: none;
+}
+
+.enviar:hover {
+  background: rgb(186, 85, 211);
+  box-shadow: 0 0 10px rgb(186, 85, 211), 0 0 40px rgb(186, 85, 211), 0 0 80px rgb(186, 85, 211);
 }
 
 .form-label {
@@ -178,28 +329,81 @@ video {
 }
 
 /*footer*/
+footer {
+  margin-top: 5em;
+}
+
+.siguenos {
+  font-size: 20px;
+  margin-left: 3em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  gap: 2em;
+  margin-left: 5em;
+}
+
+.redes2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 6em;
+  gap: 2em;
+}
+
 .instagram {
-  width: 4%;
+  width: 3em;
+  display: flex;
 }
 
 .discord {
-  width: 4%;
+  width: 3em;
+  display: flex;
 }
 
 .tiktok {
-  width: 4%;
+  width: 3em;
+  display: flex;
 }
 
 .youtube {
-  width: 4%;
+  width: 3em;
+  margin-top: 0.5em;
+  display: flex;
 }
 
 .steam {
-  width: 9%;
+  width: 3em;
+  display: flex;
 }
 
 .googleplay {
-  width: 30%;
+  width: 8em;
+  display: flex;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.nombre-programador {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {
@@ -211,7 +415,9 @@ video {
   }
   .imagen3 {
     width: 80%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .img4 {
     display: none;
@@ -219,10 +425,24 @@ video {
   .img5 {
     display: none;
   }
+  .grup1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .grup2 {
+    flex-wrap: wrap;
+  }
   .te-not {
     font-size: 22px;
   }
   .noti-im-foto {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+  }
+  .noti-im-foto2 {
     width: 100%;
     display: inline-block;
   }
@@ -237,6 +457,50 @@ video {
   .img3-jg {
     display: none;
   }
+  .noticias1y2 {
+    flex-wrap: wrap;
+  }
+  .noticias3y4 {
+    flex-wrap: wrap;
+  }
+  video {
+    align-items: center;
+  }
+  /*juegos*/
+  .steam-jg {
+    display: flex;
+    flex: content;
+    justify-content: start;
+  }
+  /*equipo*/
+  .equipo1 {
+    flex-wrap: wrap;
+  }
+  .equipo2 {
+    flex-wrap: wrap;
+  }
+  /*footer*/
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .redes1 {
+    justify-content: flex-start;
+  }
+  .redes2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4%;
+    margin-left: 7em;
+  }
+  .copyright {
+    margin-top: 5%;
+  }
+}
+@font-face {
+  font-family: "Chomsky";
+  src: url(/assets/fonts/Chomsky.otf);
 }
 
 /*# sourceMappingURL=style.css.map */

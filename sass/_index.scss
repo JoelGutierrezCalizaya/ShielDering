@@ -12,6 +12,7 @@
     width: 115%;
     margin-left: -10%;
     margin-top: 5%;
+    display: flex;
 }
 .img4{
     width: 60%;
@@ -23,10 +24,45 @@
     margin-left: -50%;
     margin-top: 40%;
 }
+.titulo{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(186, 85, 211);;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    font-family: 'Chomsky';
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.titulo:hover{
+    transform: scale(1.1);
+}
+.grup1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.grup2{
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    display: flex;
+}
 .te-not{
+    font-size: 20px;
     margin-top: 10%;
+    font-family: 'Noto Serif Khojki', serif;
+}
+.te-not2{
+    font-size: 20px;
+    margin: 1px;
+    font-family: 'Noto Serif Khojki', serif;
 }
 .noti-im-foto{
+    width: 80%;
+    padding-left: 15%;
+    margin-top: 10%;
+}
+.noti-im-foto2{
     width: 80%;
     padding-left: 15%;
     margin-top: 10%;

@@ -1,16 +1,26 @@
-.titulo{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
+.soporte{
+    margin-top: 3%;
 }
 .text-contacto{
     margin-bottom: 20%;
+    font-size: 20px;
+    font-family: 'Noto Serif Khojki', serif;
 }
 .enviar{
-    margin-top: 2%;
+    border: 0;
+    margin-top: 3%;
+    color: #ffff;
+    overflow: hidden;
+    transition: 0.2;
+    background: rgb(15, 150, 22);
+    text-decoration: none;
+    
+}
+.enviar:hover{
+    background: rgb(186, 85, 211);
+    box-shadow: 0 0 10px rgb(186, 85, 211), 0 0 40px rgb(186, 85, 211), 0 0 80px rgb(186, 85, 211);
 }
 .form-label{
     font-size: large;
     font-style: oblique;
-
 }

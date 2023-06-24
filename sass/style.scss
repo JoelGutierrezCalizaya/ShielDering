@@ -5,47 +5,9 @@
 @import "equipo";
 @import "soporte";
 @import "footer";
+@import "media";
 
-@media (max-width:1920px){
-    
-}
-@media (max-width:1280px){
-
-}
-@media (max-width:800px) {
-    .img1{
-        display: none;
-    }
-    .img2{
-        display: none;
-    }
-    .imagen3{
-        width: 80%;
-        display:inline-block;
-    }
-    .img4{
-        display: none;
-    }
-    .img5{
-        display: none;
-    }
-    .te-not{
-        font-size: 22px;
-    }
-    .noti-im-foto{
-        width: 100%;
-        display:inline-block;
-    }
-    .img1-jg{
-        display: none;
-    }
-    .img2-jg{
-        width: 200%;
-        display:inline-block;
-        margin-left: -50%;
-    }
-    .img3-jg{
-        display: none;
-    }
-
+@font-face {
+    font-family: 'Chomsky';
+    src: url(/assets/fonts/Chomsky.otf);
 }

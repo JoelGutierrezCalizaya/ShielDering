@@ -1,19 +1,66 @@
 /*footer*/
+footer{
+    margin-top: 5em;
+}
+.siguenos{
+    font-size: 20px;
+    margin-left: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes1{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    gap: 2em;
+    margin-left: 5em;
+}
+.redes2{
+    display: flex;
+    justify-content:flex-end;
+    width: 50%;
+    margin-right: 6em;
+    gap:2em;
+}
 .instagram{
-    width: 4%;
+    width: 3em;
+    display: flex;
 }
 .discord{
-    width: 4%;
+    width: 3em;
+    display: flex;
 }
 .tiktok{
-    width: 4%;
+    width: 3em;
+    display: flex;
 }
 .youtube{
-    width: 4%;
+    width: 3em;
+    margin-top: 0.5em;
+    display: flex;
 }
 .steam{
-    width: 9%;
+    width: 3em;
+    display: flex;
 }
 .googleplay{
-    width: 30%;
+    width: 8em;
+    display: flex;
+}
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.nombre-programador{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    
 }

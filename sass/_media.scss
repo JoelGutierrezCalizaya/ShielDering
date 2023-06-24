@@ -1,0 +1,100 @@
+@media (max-width:1920px){
+    
+}
+@media (max-width:1280px){
+
+}
+@media (max-width:800px) {
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .imagen3{
+        width: 80%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img4{
+        display: none;
+    }
+    .img5{
+        display: none;
+    }
+    .grup1{
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .grup2{
+        flex-wrap:wrap;
+    }
+    .te-not{
+        font-size: 22px;
+    }
+    .noti-im-foto{
+        width: 100%;
+        display:inline-block;
+        align-items: center;
+    }
+    .noti-im-foto2{
+        width: 100%;
+        display:inline-block;
+    }
+    .img1-jg{
+        display: none;
+    }
+    .img2-jg{
+        width: 200%;
+        display:inline-block;
+        margin-left: -50%;
+    }
+    .img3-jg{
+        display: none;
+    }
+    .noticias1y2{
+        flex-wrap: wrap;
+    }
+    .noticias3y4{
+        flex-wrap: wrap;
+    }
+    video{
+        align-items: center;
+    }
+    /*juegos*/
+    .steam-jg{
+        display: flex;
+        flex: content;
+        justify-content:start;
+    }
+    /*equipo*/
+    .equipo1{
+        flex-wrap: wrap;
+    }
+    .equipo2{
+        flex-wrap: wrap;
+    }
+    /*footer*/
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .redes1{
+    justify-content: flex-start;
+    
+    }
+    .redes2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4%;
+    margin-left: 7em;
+    
+    }
+    .copyright{
+        margin-top: 5%;
+    }
+}

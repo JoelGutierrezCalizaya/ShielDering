@@ -1,17 +1,31 @@
-.equipo-bicho{
-    margin-left: 10%;
-    width: 50%;
+.contenedor-equipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.equipo-bicho2{
-    margin-top: 10%;
-    width: 35%;
-    margin-left: 25%;
+.equipo1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
-.equip-rol{
-    margin-top: 5%;
-    margin-left: 30%;
+.equipo-foto1{
+    height: 300px;
 }
-.equip-rol2{
-    margin-top: 5%;
-    margin-left: 40%;
+
+.equipo2{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.equipo-foto2{
+    height: 300px;
+}
+.nombre-equipo{
+    color:  rgb(186, 85, 211);
+    font-size: 30px;
+}
+.lista{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
 }
